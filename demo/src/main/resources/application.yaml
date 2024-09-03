@@ -1,0 +1,11 @@
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+
+  datasource:
+    url: jdbc:mariadb://localhost:3306/spring_sec_test
+    username: prrp
+    password: 173251
